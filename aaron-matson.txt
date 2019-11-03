@@ -1,1 +1,24 @@
 https://codepen.io/matsonaaron1/pen/GRROPLj
+
+1. What is the difference between an inline element and a block element?
+An inline element does not start on a new line and only takes up as much width as necessary. Whereas a block element  typically causes a line break to occur
+
+
+2. What happens when an element is positioned absolutely?
+The absolutely positioned element is positioned relative to its nearest positioned ancestor.
+
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+By giving it the proper margin, padding, and display type.
+
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+block - <nav>, <form>, <footer>
+
+inline - <img>, <span>
+
+inline-block - <button>
+
+5. In your own words, explain the box model. What is the fix for the box model?
+The CSS Box Model is essentially a box that is wrapped around an HTML Element. It consists of the element at the center, the padding, border, and margin going outward. This allows you to define the space needed for the design around the HTML element. After some reasearch (https://css-tricks.com/box-sizing/) I discovered that using the box-sizing:border-box element allows you to set the width and height of the box, but it already accounts for the marging and padding around the box. So you don't have to worry about being super specific with the space around your element.
